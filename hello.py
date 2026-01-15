@@ -10,4 +10,5 @@ if response.status_code == 200:
     print("Content of hello.py:")
     print(response.text)
 else:
+
     print("Failed to fetch file.")
